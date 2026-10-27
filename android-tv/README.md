@@ -32,6 +32,8 @@ cd android-tv
 
 Windows: run `gradlew.bat` with Python and JDK 17 installed. The launcher is a small, auditable Python source file rather than a checked-in wrapper JAR. It downloads **Gradle 8.11.1 from its official distribution URL and verifies the pinned SHA-256 before extraction**. The first build downloads Google's Android Gradle Plugin and the pinned test libraries from Google Maven/Maven Central. Inspect `settings.gradle`, `build.gradle` and `tools/gradle.py` before running.
 
+For an ephemeral Linux x86_64 CI runner with no Android SDK, the workflow can explicitly opt in to SDK license acceptance with `python3 android-tv/tools/install_ci_sdk.py --accept-licenses`. The helper verifies a pinned official Google command-line tools archive, installs SDK 35 and Build Tools 35.0.0 inside `RUNNER_TEMP`, and exports the SDK paths for subsequent GitHub Actions steps. It never installs a global SDK. Review Google's SDK terms before enabling that flag in your own workflow. Bootstrap archive/path/license-gate tests run with `python3 -m unittest discover -s android-tv/tools -p test_install_ci_sdk.py`.
+
 The local APK is `app/build/outputs/apk/debug/app-debug.apk`. It is signed with your development machine's debug key, not a shared project key. Do not distribute your signing keys. Use your own release key for a distribution build; no signing credentials are included here.
 
 To sideload, use the TV manufacturer's documented developer flow and a current Android SDK `adb` connection that you explicitly authorize on your own device:
