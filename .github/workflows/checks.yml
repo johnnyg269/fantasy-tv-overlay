@@ -46,8 +46,8 @@ jobs:
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: '3.12'
-      - name: Install Android platform and build tools
-        run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
+      - name: Install checksum-pinned official Android SDK
+        run: python android-tv/tools/install_ci_sdk.py --accept-licenses
       - name: Android unit tests, lint and debug build
         working-directory: android-tv
         run: ./gradlew --no-daemon testDebugUnitTest lintDebug assembleDebug

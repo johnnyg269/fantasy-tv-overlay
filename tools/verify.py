@@ -26,6 +26,7 @@ def main():
     parser.add_argument("--android", action="store_true", help="Also compile/lint/test Android (official SDK/JDK needed)")
     args = parser.parse_args()
     run([sys.executable, "-m", "unittest", "discover", "-s", "backend/tests", "-v"])
+    run([sys.executable, "-m", "unittest", "discover", "-s", "android-tv/tools", "-p", "test_*.py", "-v"])
     run([sys.executable, "-m", "unittest", "discover", "-s", ".", "-p", "test_*.py", "-v"], ROOT / "samsung")
     if importlib.util.find_spec("ask_sdk_core") is not None:
         run([sys.executable, "-m", "unittest", "discover", "-s", "tests", "-v"], ROOT / "samsung/alexa_bridge")

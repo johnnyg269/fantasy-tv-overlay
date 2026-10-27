@@ -10,6 +10,7 @@ The initial public package was prepared with synthetic fixtures and private-data
 | Optional AirPlay pairing/storage helper | 5 mocked Python tests passed |
 | Samsung native policy/font/image/gradient checks | 88 assertions passed; native renderer build succeeded |
 | Android feed/parser/policy | 26 Java tests passed |
+| Official Android CI SDK bootstrap | 5 Python tests passed; pinned archive integrity/extraction verified |
 | Android packaging and static checks | Debug APK build succeeded; lint reported zero errors |
 | Repo-local agent skills | Both passed the skill-creator validator; setup guidance received an independent scenario check |
 
