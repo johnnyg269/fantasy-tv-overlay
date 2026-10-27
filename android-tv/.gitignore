@@ -1,0 +1,8 @@
+.gradle/
+.gradle-cache/
+local.properties
+**/build/
+*.jks
+*.keystore
+.env*
+!.env.example

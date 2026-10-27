@@ -1,0 +1,462 @@
+{
+  "ok": true,
+  "updated": 1000,
+  "demo": true,
+  "schemaVersion": 1,
+  "leagues": [
+    {
+      "ok": true,
+      "leagueId": "espn:1",
+      "short": "Sunday League",
+      "leagueName": "Sunday League",
+      "week": 7,
+      "winProb": 0.64,
+      "winProbSource": "synthetic-demo",
+      "me": {
+        "teamId": "1",
+        "name": "Demo team",
+        "ownerName": "Alex",
+        "displayLabel": "Alex",
+        "score": 112.38,
+        "proj": 134.78,
+        "players": [
+          {
+            "slot": "QB",
+            "name": "Demo player 1",
+            "pts": 3.2,
+            "proj": 7.5,
+            "bench": false,
+            "nflHighlightLive": true,
+            "nflGameState": "live",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "RB",
+            "name": "Demo player 2",
+            "pts": 4.2,
+            "proj": 8.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "RB",
+            "name": "Demo player 3",
+            "pts": 5.2,
+            "proj": 9.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "WR",
+            "name": "Demo player 4",
+            "pts": 6.2,
+            "proj": 10.5,
+            "bench": false,
+            "nflHighlightLive": true,
+            "nflGameState": "live",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "WR",
+            "name": "Demo player 5",
+            "pts": 7.2,
+            "proj": 11.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "TE",
+            "name": "Demo player 6",
+            "pts": 8.2,
+            "proj": 12.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "FLEX",
+            "name": "Demo player 7",
+            "pts": 9.2,
+            "proj": 13.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "D/ST",
+            "name": "Demo player 8",
+            "pts": 10.2,
+            "proj": 14.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "K",
+            "name": "Demo player 9",
+            "pts": 11.2,
+            "proj": 15.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          }
+        ]
+      },
+      "opp": {
+        "teamId": "2",
+        "name": "Demo team",
+        "ownerName": "Taylor",
+        "displayLabel": "Taylor",
+        "score": 104.76,
+        "proj": 127.16,
+        "players": [
+          {
+            "slot": "QB",
+            "name": "Demo player 1",
+            "pts": 3.2,
+            "proj": 7.5,
+            "bench": false,
+            "nflHighlightLive": true,
+            "nflGameState": "live",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "RB",
+            "name": "Demo player 2",
+            "pts": 4.2,
+            "proj": 8.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "RB",
+            "name": "Demo player 3",
+            "pts": 5.2,
+            "proj": 9.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "WR",
+            "name": "Demo player 4",
+            "pts": 6.2,
+            "proj": 10.5,
+            "bench": false,
+            "nflHighlightLive": true,
+            "nflGameState": "live",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "WR",
+            "name": "Demo player 5",
+            "pts": 7.2,
+            "proj": 11.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "TE",
+            "name": "Demo player 6",
+            "pts": 8.2,
+            "proj": 12.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "FLEX",
+            "name": "Demo player 7",
+            "pts": 9.2,
+            "proj": 13.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "D/ST",
+            "name": "Demo player 8",
+            "pts": 10.2,
+            "proj": 14.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "K",
+            "name": "Demo player 9",
+            "pts": 11.2,
+            "proj": 15.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          }
+        ]
+      }
+    },
+    {
+      "ok": true,
+      "leagueId": "espn:2",
+      "short": "Friends League",
+      "leagueName": "Friends League",
+      "week": 7,
+      "winProb": 0.64,
+      "winProbSource": "synthetic-demo",
+      "me": {
+        "teamId": "1",
+        "name": "Demo team",
+        "ownerName": "Alex",
+        "displayLabel": "Alex",
+        "score": 113.38,
+        "proj": 135.78,
+        "players": [
+          {
+            "slot": "QB",
+            "name": "Demo player 1",
+            "pts": 3.2,
+            "proj": 7.5,
+            "bench": false,
+            "nflHighlightLive": true,
+            "nflGameState": "live",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "RB",
+            "name": "Demo player 2",
+            "pts": 4.2,
+            "proj": 8.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "RB",
+            "name": "Demo player 3",
+            "pts": 5.2,
+            "proj": 9.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "WR",
+            "name": "Demo player 4",
+            "pts": 6.2,
+            "proj": 10.5,
+            "bench": false,
+            "nflHighlightLive": true,
+            "nflGameState": "live",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "WR",
+            "name": "Demo player 5",
+            "pts": 7.2,
+            "proj": 11.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "TE",
+            "name": "Demo player 6",
+            "pts": 8.2,
+            "proj": 12.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "FLEX",
+            "name": "Demo player 7",
+            "pts": 9.2,
+            "proj": 13.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "D/ST",
+            "name": "Demo player 8",
+            "pts": 10.2,
+            "proj": 14.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "K",
+            "name": "Demo player 9",
+            "pts": 11.2,
+            "proj": 15.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          }
+        ]
+      },
+      "opp": {
+        "teamId": "2",
+        "name": "Demo team",
+        "ownerName": "Taylor",
+        "displayLabel": "Taylor",
+        "score": 105.76,
+        "proj": 128.16,
+        "players": [
+          {
+            "slot": "QB",
+            "name": "Demo player 1",
+            "pts": 3.2,
+            "proj": 7.5,
+            "bench": false,
+            "nflHighlightLive": true,
+            "nflGameState": "live",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "RB",
+            "name": "Demo player 2",
+            "pts": 4.2,
+            "proj": 8.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "RB",
+            "name": "Demo player 3",
+            "pts": 5.2,
+            "proj": 9.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "WR",
+            "name": "Demo player 4",
+            "pts": 6.2,
+            "proj": 10.5,
+            "bench": false,
+            "nflHighlightLive": true,
+            "nflGameState": "live",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "WR",
+            "name": "Demo player 5",
+            "pts": 7.2,
+            "proj": 11.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "TE",
+            "name": "Demo player 6",
+            "pts": 8.2,
+            "proj": 12.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "FLEX",
+            "name": "Demo player 7",
+            "pts": 9.2,
+            "proj": 13.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "D/ST",
+            "name": "Demo player 8",
+            "pts": 10.2,
+            "proj": 14.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          },
+          {
+            "slot": "K",
+            "name": "Demo player 9",
+            "pts": 11.2,
+            "proj": 15.5,
+            "bench": false,
+            "nflHighlightLive": false,
+            "nflGameState": "final",
+            "nflAvailability": "available",
+            "gameId": "demo-game"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+.private/
+.venv/
+__pycache__/
+**/__pycache__/
+lambda/private_config.json
+*.sqlite3*

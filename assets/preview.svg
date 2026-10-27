@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="Synthetic Fantasy TV corner popup, showing Alex versus Taylor. Fictional demo, not a device capture.">
+  <defs>
+    <linearGradient id="field" x2="0" y2="1"><stop stop-color="#2f4b39"/><stop offset="1" stop-color="#152e28"/></linearGradient>
+    <radialGradient id="corner" cx="0" cy="0" r="1" gradientTransform="scale(1040 680)" gradientUnits="userSpaceOnUse"><stop stop-color="#080d12" stop-opacity=".97"/><stop offset=".48" stop-color="#080d12" stop-opacity=".9"/><stop offset="1" stop-color="#080d12" stop-opacity="0"/></radialGradient>
+    <linearGradient id="bottom" x2="1" y2="0"><stop stop-color="#111b23"/><stop offset="1" stop-color="#182830"/></linearGradient>
+  </defs>
+  <rect width="1280" height="720" rx="22" fill="url(#field)"/>
+  <g transform="translate(540 70) rotate(-13)" fill="none" stroke="#dae4d6" opacity=".14">
+    <path d="M0 0v760 M180 0v760 M360 0v760 M540 0v760 M720 0v760" stroke-width="4"/>
+    <path d="M0 100h780 M0 250h780 M0 400h780 M0 550h780" stroke-width="1"/>
+    <g font-family="Arial,sans-serif" font-size="96" font-weight="700" fill="#dae4d6" stroke="none"><text x="210" y="360">30</text><text x="570" y="360">20</text></g>
+  </g>
+  <rect width="1280" height="720" rx="22" fill="url(#corner)"/>
+  <g transform="translate(38 36)" font-family="Inter,Arial,sans-serif">
+    <circle cx="5" cy="7" r="4" fill="#8bddb5"/>
+    <text x="20" y="12" fill="#c4cdd0" font-size="15" letter-spacing="1.8">SUNDAY LEAGUE</text>
+    <text x="433" y="12" fill="#aebcc2" font-size="14">WK 7</text>
+    <text x="0" y="67" fill="#f2f5f6" font-size="28" font-weight="600">Alex</text>
+    <text x="292" y="67" fill="#c4cdd0" font-size="28" font-weight="600">Taylor</text>
+    <g font-family="Bebas Neue,Impact,sans-serif" font-size="88" font-weight="400" fill="#f2f5f6"><text x="0" y="160">112.38</text><text x="289" y="160" fill="#d5dce0">104.76</text></g>
+    <text x="242" y="137" fill="#87949c" font-size="25">:</text>
+    <rect x="0" y="185" width="484" height="6" rx="3" fill="#c9787b"/><path d="M3 185h304v6H3a3 3 0 0 1 0-6" fill="#8bddb5"/>
+    <text x="0" y="218" fill="#8bddb5" font-size="21" font-weight="600">64%</text><text x="484" y="218" text-anchor="end" fill="#f2b7ba" font-size="21" font-weight="600">36%</text>
+    <text x="242" y="216" text-anchor="middle" fill="#aebcc2" font-size="12">ESTIMATED WIN CHANCE</text>
+    <rect x="0" y="247" width="252" height="50" rx="11" fill="#f0eee7"/>
+    <text x="20" y="279" fill="#17232c" font-size="18" font-weight="600">View matchup</text>
+    <path d="M205 259v26" stroke="#bec4c1"/>
+    <text x="228" y="278" text-anchor="middle" fill="#52606a" font-size="12" font-weight="600">OK</text>
+    <text x="0" y="331" fill="#8e9aa0" font-size="12">FICTIONAL DEMO · NO ACCOUNT DATA</text>
+  </g>
+  <g transform="translate(38 574)" font-family="Inter,Arial,sans-serif">
+    <text fill="#f2f5f6" font-size="38" font-weight="600">Fantasy TV</text>
+    <text y="38" fill="#b9c8c9" font-size="19">Your matchup. Right over the game.</text>
+    <g transform="translate(827 0)"><rect width="166" height="34" rx="17" fill="#ffffff0e" stroke="#ffffff24"/><text x="83" y="22" text-anchor="middle" fill="#d3dfdc" font-size="12" letter-spacing="1">SAMSUNG TIZEN</text><rect x="177" width="170" height="34" rx="17" fill="#ffffff0e" stroke="#ffffff24"/><text x="262" y="22" text-anchor="middle" fill="#d3dfdc" font-size="12" letter-spacing="1">ANDROID TV</text></g>
+    <path d="M0 66h1204" stroke="#ffffff1a"/>
+    <text y="94" fill="#899f9f" font-size="12" letter-spacing="1.4">SELF-HOSTED · PRIVATE ACCOUNTS · OPEN SOURCE</text>
+  </g>
+</svg>

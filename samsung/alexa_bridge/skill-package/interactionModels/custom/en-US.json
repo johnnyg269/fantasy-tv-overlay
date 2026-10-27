@@ -1,0 +1,27 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "fantasy scores",
+      "intents": [
+        {
+          "name": "ShowScoreIntent",
+          "slots": [],
+          "samples": [
+            "show my score",
+            "show me my score",
+            "show me my fantasy score",
+            "show my fantasy score",
+            "show my scores",
+            "show my matchup",
+            "put my score on the TV"
+          ]
+        },
+        {"name": "AMAZON.HelpIntent", "samples": []},
+        {"name": "AMAZON.CancelIntent", "samples": []},
+        {"name": "AMAZON.StopIntent", "samples": []},
+        {"name": "AMAZON.FallbackIntent", "samples": []}
+      ],
+      "types": []
+    }
+  }
+}

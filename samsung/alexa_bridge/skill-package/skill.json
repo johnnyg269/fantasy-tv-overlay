@@ -1,0 +1,30 @@
+{
+  "manifest": {
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "Fantasy Scores",
+          "summary": "Request the existing fantasy score popup on your home TV.",
+          "description": "A personal home integration for the existing fantasy score overlay.",
+          "examplePhrases": [
+            "Alexa, open fantasy scores",
+            "Alexa, ask fantasy scores to show my score"
+          ],
+          "keywords": ["fantasy", "scores"]
+        }
+      },
+      "isAvailableWorldwide": false,
+      "distributionCountries": ["US"],
+      "category": "SMART_HOME"
+    },
+    "apis": {"custom": {}},
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    }
+  }
+}

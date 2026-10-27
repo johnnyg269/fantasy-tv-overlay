@@ -1,0 +1,26 @@
+name: Bug or compatibility report
+description: Report an issue without sharing account credentials or personal data.
+body:
+  - type: markdown
+    attributes:
+      value: "Never attach cookies, tokens, pairing stores, private configuration, raw API responses, household IP addresses or account screenshots. Use fictional names and redact data. Security issues belong in the private reporting flow in SECURITY.md."
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and observed behavior
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: TV/device platform, model, software version and viewing app
+      description: "Model/software only; omit serial numbers, device names and network addresses."
+    validations:
+      required: true
+  - type: textarea
+    id: checks
+    attributes:
+      label: Reproduction steps with synthetic data
+      description: "Separate build checks from physically observed behavior."
+    validations:
+      required: true

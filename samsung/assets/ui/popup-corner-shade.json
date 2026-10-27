@@ -1,0 +1,14 @@
+{
+  "asset": "popup-corner-shade.png",
+  "sha256": "fafa4bf5f1ec1c44bd1827238f7949832f1edff3be9c250db0591459c2e61a65",
+  "width": 1000,
+  "height": 650,
+  "color": "#080D12",
+  "maxAlpha": 220,
+  "radiusX": 800,
+  "radiusY": 450,
+  "formula": "220 * exp(-((x / 800)^2 + (y / 450)^2)^4)",
+  "sampling": "pixel centers; rounded to nearest integer alpha",
+  "png": "8-bit RGBA; non-interlaced; scanline filter0",
+  "description": "Continuous quarter-elliptical corner bloom; no rectangular plate or edge patches"
+}

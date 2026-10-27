@@ -1,0 +1,4 @@
+[
+  {"provider": "espn", "id": "123456", "teamId": 1, "season": 2026, "label": "Sunday League"},
+  {"provider": "sleeper", "id": "123456789012345678", "teamId": 2, "season": 2026, "label": "Friends League"}
+]

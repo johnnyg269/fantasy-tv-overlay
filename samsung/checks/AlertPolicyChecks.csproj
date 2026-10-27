@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net6.0</TargetFramework><OutputType>Exe</OutputType><EnableDefaultCompileItems>false</EnableDefaultCompileItems><UseAppHost>false</UseAppHost><StartupObject>Checks</StartupObject></PropertyGroup>
+  <ItemGroup><Compile Include="../OverlayInteractionPolicy.cs" />
+    <Compile Include="../AlertPopupPolicy.cs"/><Compile Include="../FantasyOverlay.cs"/><Compile Include="Program.cs"/></ItemGroup>
+</Project>

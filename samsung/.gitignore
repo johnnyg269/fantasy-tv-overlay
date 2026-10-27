@@ -1,0 +1,11 @@
+.local/
+__pycache__/
+*.pyc
+bin/
+obj/
+checks/bin/
+checks/obj/
+owner_names.json
+state.json
+*.log
+*.zip

@@ -1,0 +1,40 @@
+{
+  "selection": "Chalk action",
+  "scale": 4,
+  "logicalButton": {
+    "x": 24,
+    "y": 244,
+    "width": 244,
+    "height": 48,
+    "radius": 10
+  },
+  "transparentMargin": 8,
+  "imagePlacement": {
+    "x": 16,
+    "y": 236,
+    "width": 260,
+    "height": 64
+  },
+  "nativeText": [
+    "View matchup",
+    "OK"
+  ],
+  "files": [
+    {
+      "name": "button-matchup-focus.png",
+      "pixels": [
+        1040,
+        256
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "button-matchup-idle.png",
+      "pixels": [
+        1040,
+        256
+      ],
+      "mode": "RGBA"
+    }
+  ]
+}
